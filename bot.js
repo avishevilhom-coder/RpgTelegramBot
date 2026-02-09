@@ -7,7 +7,7 @@
     bot.on('polling_error', console.log);
     const userState = {};
 
-
+уср
 
     
     bot.on('message', (msg) =>{
@@ -67,89 +67,6 @@ default:
     console.log("Введите от 1  до 3");
     break;
         }
-/* 
-        else if (text === '2'){
-        bot.sendMessage(chatId,`Хороший выбор:
-Лучник имеет свои статы:
-Здоровь: 80
-Урон: 12
-Броня: 2
-Мана: 40
-Мана кост: 10
-Урон магией: 15`);
-  
-        }
-        else if (text === '3'){
-        bot.sendMessage(chatId,`Хороший выбор:
-Маг имеет свои статы:
-Здоровь: 60
-Урон: 14
-Броня: 1
-Мана: 50
-Мана кост: 15
-Урон магией: 18`);
-    
-        }
-        default:
-            bot.sendMessage(chatId, 'Введите от 1 до 3');
-            userState[chatId] = 'get_started';
-break;
-    
-    }
-*/
 
-    /*
-   switch(text){
-    case '1':
-        newGame(msg, text);
-    break;
-
-   }
-
-function newGame(msg,text){
-    const chatId = msg.chat.id;
-    bot.sendMessage(chatId,`Добро пожаловать в РПГ стратегию:
-
-Давай выберем кем ты будешь 
-1 - Воин
-2 - Лучник
-3 - Маг` )
-
-    switch(text){
-        case '1':
-        bot.sendMessage(chatId,`Хороший выбор:
-Воин имеет свои статы:
-Здоровь: 120
-Урон: 10
-Броня: 5
-Мана: 30
-Мана кост: 10
-Урон магией: 15`);
-    break;
-    case '2':
-    bot.sendMessage(chatId,`Хороший выбор:
-Лучник имеет свои статы:
-Здоровь: 80
-Урон: 12
-Броня: 2
-Мана: 40
-Мана кост: 10
-Урон магией: 15`);
-    break;
-    case '3':
-        bot.sendMessage(chatId,`Хороший выбор:
-Маг имеет свои статы:
-Здоровь: 60
-Урон: 14
-Броня: 1
-Мана: 50
-Мана кост: 15
-Урон магией: 18`);
-    break;
-
-    }
-    
-}
-*/
         
 });
