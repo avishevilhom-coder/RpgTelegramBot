@@ -7,7 +7,6 @@
     bot.on('polling_error', console.log);
     const userState = {};
 
-уср
 
     
     bot.on('message', (msg) =>{
