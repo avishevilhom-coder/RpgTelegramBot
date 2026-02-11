@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Телеграм бот по игре",
   "main": "bot.js",
+"type": "main"
   "scripts": {
     "start": "node bot.js"
   },
